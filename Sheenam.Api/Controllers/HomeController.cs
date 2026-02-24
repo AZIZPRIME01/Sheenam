@@ -8,8 +8,6 @@ namespace Sheenam.Api.Controllers
     public class HomeController : RESTFulController
     {
 
-        [HttpGet]
-        public IActionResult<string> Get() => Ok("Welcome to Sheenam API!");
         
 
     }
