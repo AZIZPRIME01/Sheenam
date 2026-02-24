@@ -5,7 +5,11 @@ on:
     - main
   pull_request:
     branches:
+<<<<<<< HEAD
     - main
+=======
+    - master  
+>>>>>>> 8e3d03e6a19877a72a6f5ac3f6eaff4e3e7d8b00
 jobs:
   build:
     runs-on: windows-latest
